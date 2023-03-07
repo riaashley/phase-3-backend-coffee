@@ -22,3 +22,6 @@ Coffee.create(coffee_name: "Oreo Frappuccino", category: "iced", description: "A
 Coffee.create(coffee_name: "Pumpkin Spice Lattee", category: "hot", description: "Espresso and steamed milk with pumpking flavor cinnamon and nutmeg", image_url: "https://images.pexels.com/photos/3151778/pexels-photo-3151778.jpeg?auto=compress&cs=tinysrgb&w=600", shop_id: 4)
 Coffee.create(coffee_name: "Matcha Latte", category: "iced", description: "Coffee with matcha extract combined with almond, coconut and rice milk ", image_url: "https://www.pexels.com/photo/colorful-drink-in-glass-13689974/", shop_id: 5)
 #Coffee.create(coffee_name:, category:, description:, image_url:, shop_id:)
+
+Shop.create(name: "Coffee Connection", image_url: "https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg", location: "3838 S Centinela Ave Los Angeles, CA 90066")
+Shop.create(name: "Cafe Landwer", image_url: "https://images.pexels.com/photos/756084/pexels-photo-756084.jpeg?auto=compress&cs=tinysrgb&w=600", location: "10250 Santa Monica Blvd Los Angeles, CA 90067 Century City")
