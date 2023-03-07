@@ -1,5 +1,9 @@
-puts "🌱 Seeding spices..."
+class ApplicationController < Sinatra::Base
+  set :default_content_type, 'application/json'
 
-# Seed your database here
-
-puts "✅ Done seeding!"
+#Get: list of Shops
+  get '/shops' do
+    shops = Shop.all
+    shops.to_json
+  end
+end
