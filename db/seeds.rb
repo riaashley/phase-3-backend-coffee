@@ -19,4 +19,14 @@ class ApplicationController < Sinatra::Base
     shops.destroy
     shops.to_json
  end
+
+#Creates: adds a shop
+  post '/shops' do
+    shop = Shop.create(
+      name:params[:name], 
+      image_url:params[:image_url], 
+      location:params[:location], 
+      review:params[:review])
+    shop.to_json
+   end
 end
