@@ -1,9 +1,6 @@
 class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
   
-  class ApplicationController < Sinatra::Base
-    set :default_content_type, 'application/json'
-  
   #Get: list of Shops
     get '/shops' do
       shops = Shop.all
@@ -32,7 +29,8 @@ class ApplicationController < Sinatra::Base
         review:params[:review])
       shop.to_json
      end
-  
+
+  #Update: shop
      patch '/shops/:id' do
       shop = Shop.find(params[:id])
       shop.update(
@@ -44,4 +42,3 @@ class ApplicationController < Sinatra::Base
     end
   end
 
-end
