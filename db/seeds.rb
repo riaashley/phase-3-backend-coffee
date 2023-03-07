@@ -25,9 +25,9 @@ Coffee.create(coffee_name: "Matcha Latte", category: "iced", description: "Coffe
 
 Shop.create(name: "Coffee Connection", image_url: "https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg", location: "3838 S Centinela Ave Los Angeles, CA 90066")
 Shop.create(name: "Cafe Landwer", image_url: "https://images.pexels.com/photos/756084/pexels-photo-756084.jpeg?auto=compress&cs=tinysrgb&w=600", location: "10250 Santa Monica Blvd Los Angeles, CA 90067 Century City")
-Shop.create(name: "Conservatory For Coffee, Tea, and Cocoa", image_url: "https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", location: "10117 Washington Blvd Culver City, CA 90232", review: "So many selections!")
-Shop.create(name: "La La Land Kind Cafe", image_url: "https://images.pexels.com/photos/887723/pexels-photo-887723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", location: "1426 Montana Ave Santa Monica, CA 90403", review: "Love the bright open airy interior. Friendly and attentive staff.")
-Shop.create(name: "Coffee MCO", image_url: "https://images.pexels.com/photos/1055054/pexels-photo-1055054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", location: "2580 W Olympic Blvd Los Angeles, CA 90006", review: "Loved the drinks and atmosphere of the cafe. The interior is well decorated and classic R&B songs played in the background.")
+Shop.create(name: "Conservatory For Coffee, Tea, and Cocoa", image_url: "https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", location: "10117 Washington Blvd Culver City, CA 90232")
+Shop.create(name: "La La Land Kind Cafe", image_url: "https://images.pexels.com/photos/887723/pexels-photo-887723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", location: "1426 Montana Ave Santa Monica, CA 90403")
+Shop.create(name: "Coffee MCO", image_url: "https://images.pexels.com/photos/1055054/pexels-photo-1055054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", location: "2580 W Olympic Blvd Los Angeles, CA 90006")
 #Cafe.create(shop_name:, image_url:, location:, review:)
 
 
