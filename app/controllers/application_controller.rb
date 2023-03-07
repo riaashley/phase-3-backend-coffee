@@ -51,6 +51,11 @@ end
       iced = Coffee.where(category: "iced").order(:coffee_name)
       iced.to_json
   end
+  #Get: list of hot coffees
+  get '/coffees/hot' do
+    hot = Coffee.where(category: "hot").order(:coffee_name)
+    hot.to_json
+  end
 
 
 end
