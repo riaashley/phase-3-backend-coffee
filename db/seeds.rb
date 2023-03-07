@@ -6,4 +6,11 @@ class ApplicationController < Sinatra::Base
     shops = Shop.all
     shops.to_json
   end
+
+#Get: search shops by id
+  get '/shops/:id' do
+    shops = Shop.find(params[:id])
+    shops.to_json(include: :coffees)
+  end
+  
 end
