@@ -12,5 +12,11 @@ class ApplicationController < Sinatra::Base
     shops = Shop.find(params[:id])
     shops.to_json(include: :coffees)
   end
-  
+
+#Delete: removes shop by id
+  delete '/shops/:id' do
+    shops = Shop.find(params[:id])
+    shops.destroy
+    shops.to_json
+ end
 end
